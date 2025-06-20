@@ -284,7 +284,9 @@ p {
 .home-social li a:hover, 
 .home-social li a:focus, 
 .home-social li a:active {
-  color: #ffdb58;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* scroll down */
