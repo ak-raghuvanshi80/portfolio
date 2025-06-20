@@ -374,9 +374,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     letter-spacing: 1pt;
     padding-bottom: 15px;
     margin-left: 30px;
-	 background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	 background: linear-gradient(red, blue);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
 } 
  
 .navbar-toggler {
