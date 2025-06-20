@@ -130,9 +130,7 @@ p {
 .preloader .lines .line.line-2 {
     top: 15px;
     animation: slide 2s ease .25s infinite;
-	background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	background-image: linear-gradient(to right, #00A99D , #39B54A);  
 }
 
 .preloader .lines .line.line-3 {
@@ -286,10 +284,10 @@ p {
 .home-social li a:hover, 
 .home-social li a:focus, 
 .home-social li a:active {
-  background: linear-gradient(red, blue);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+ background: linear-gradient(#00A99D, #39B54A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* scroll down */
@@ -369,15 +367,15 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 16pt;
+    font-weight: 900;
+    font-size: 20pt;
     letter-spacing: 1pt;
     padding-bottom: 15px;
     margin-left: 30px;
-	 background: linear-gradient(red, blue);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+    background: linear-gradient(#00A99D, #39B54A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 } 
  
 .navbar-toggler {
