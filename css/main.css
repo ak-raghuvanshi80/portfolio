@@ -69,7 +69,7 @@ p {
     margin: 0;
     font-size: 10pt;
     letter-spacing: 2pt;
-    color: #fff;
+    color: #000;
     text-transform: uppercase; 
 }
 
@@ -84,7 +84,10 @@ p {
     margin: 0;
     font-size: 20pt;
     letter-spacing: 1pt;    
-    color: #fff;
+    background: linear-gradient(#00A99D, #39B54A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Cardo', serif;
 }
 
@@ -279,15 +282,12 @@ p {
   padding-left: 0;
 }
 .home-social li a, .home-social li a:visited {
-  color: #757575;
+  background-image: linear-gradient(to right, #00A99D , #39B54A);
 }
 .home-social li a:hover, 
 .home-social li a:focus, 
 .home-social li a:active {
- background: linear-gradient(#00A99D, #39B54A);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+ background-image: linear-gradient(to right, #00A99D , #39B54A);
 }
 
 /* scroll down */
@@ -324,13 +324,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 3pt;
-  color: #fff !important;
   background: transparent;
   position: relative;
   top: 20px;
   right: 42px;
   -webkit-animation: animate-it 3s ease infinite;
   animation: animate-it 3s ease infinite;
+	background: linear-gradient(#00A99D, #39B54A) !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* vertical animation */
@@ -399,15 +402,19 @@ button:focus {
     box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.3);
 } 
 
-.navbar .navbar-nav>li>a {
-    color: #fff;
+.navbar .navbar-nav>li>a {    
     font-size: 8pt;
     letter-spacing: 3pt;
+	background: linear-gradient(#00A99D, #39B54A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
  
 .navbar .navbar-nav li.active > a {
     border-bottom: 3px solid #ffdb58;
     padding-bottom: 22px;
+	background-image: linear-gradient(to right, #00A99D , #39B54A) !important;
 }
  
 /******** OFFCANVAS NAVIGATION SECTION START ********/
