@@ -284,7 +284,7 @@ p {
 .home-social li a:hover, 
 .home-social li a:focus, 
 .home-social li a:active {
-  color: #fff;
+  color: #ffdb58;
 }
 
 /* scroll down */
@@ -400,7 +400,7 @@ button:focus {
 }
  
 .navbar .navbar-nav li.active > a {
-    border-bottom: 3px solid #fff;
+    border-bottom: 3px solid #ffdb58;
     padding-bottom: 22px;
 }
  
@@ -421,6 +421,7 @@ button:focus {
 
 .menu-btn:hover {
   opacity: 0.6;
+color: #ffdb58;
 }
 
 /******** SIDE NAVIGATION SECTION START ********/
