@@ -84,7 +84,9 @@ p {
     margin: 0;
     font-size: 20pt;
     letter-spacing: 1pt;
-    color: #fff;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     font-family: 'Cardo', serif;
 }
 
