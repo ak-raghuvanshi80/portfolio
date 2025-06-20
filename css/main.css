@@ -727,6 +727,10 @@ a:hover {
    color: #ffdb58;
 }
 
+.navbar-brand:hover {
+	color: #ffdb58 !important;
+}
+
 .resume .resume .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active:hover
 .resume .resume .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
    color: #fff;
