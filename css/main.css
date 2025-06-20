@@ -130,7 +130,9 @@ p {
 .preloader .lines .line.line-2 {
     top: 15px;
     animation: slide 2s ease .25s infinite;
-	background-color: #ffdb58;
+	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .preloader .lines .line.line-3 {
